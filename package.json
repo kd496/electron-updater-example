@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -21,7 +21,8 @@
       {
         "provider": "github",
         "owner": "kd496",
-        "repo": "electron-updater-example"
+        "repo": "electron-updater-example",
+        "private": true
       }
     ],
     "appId": "com.github.kd496.electronupdaterexample",
