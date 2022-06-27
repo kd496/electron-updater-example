@@ -1,11 +1,9 @@
 {
   "name": "electron-updater-example",
-  "version": "0.8.4",
+  "version": "0.0.1",
   "main": "main.js",
-  "description": "electron-updater example project",
-  "author": "Matt Haggard",
   "scripts": {
-    "publish": "electron-builder -p always"
+    "publish": "electron-builder -- --publish always --win"
   },
   "devDependencies": {
     "electron": "^14.0.1",
@@ -21,11 +19,11 @@
       {
         "provider": "github",
         "owner": "kd496",
-        "repo": "driifloat/driifloat-desktop",
+        "repo": "electron-updater-example",
         "private": true
       }
     ],
-    "appId": "com.github.kd496.electronupdaterexample",
+    "appId": "com.driifloat.driifloatdesktop",
     "afterSign": "./build/notarize.js",
     "mac": {
       "category": "your.app.category.type"
