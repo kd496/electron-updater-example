@@ -1,9 +1,9 @@
 {
   "name": "electron-updater-example",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "main.js",
   "scripts": {
-    "publish": "electron-builder -- --publish always --win"
+    "publish": "electron-builder --win -p always"
   },
   "devDependencies": {
     "electron": "^14.0.1",
@@ -19,8 +19,7 @@
       {
         "provider": "github",
         "owner": "kd496",
-        "repo": "electron-updater-example",
-        "private": true
+        "repo": "electron-updater-example"
       }
     ],
     "appId": "com.driifloat.driifloatdesktop",
